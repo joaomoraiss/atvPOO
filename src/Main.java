@@ -6,7 +6,8 @@ public class Main {
         A.tipo = 'P';
         A.limiteCredito = 9.500;
         A.saldo = 240.560;
-        System.out.println(A.id + "\n" + A.status + "\n" + A.tipo + "\n" + A.limiteCredito + "\n" + A.saldo + "\n");
+        A.enderecoCliente = "Rua das moças";
+        System.out.println(A.id + "\n" + A.status + "\n" + A.tipo + "\n" + A.limiteCredito + "\n" + A.saldo + "\n" + A.enderecoCliente + "\n");
 
         Agencia B = new Agencia();
         B.id = 54;
